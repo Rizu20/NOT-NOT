@@ -1,4 +1,3 @@
-import os
 import sys
 from msvcrt import kbhit,getch
 from time import time,sleep
