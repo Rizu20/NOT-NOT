@@ -3,7 +3,6 @@ from msvcrt import kbhit,getch
 from time import time,sleep
 from random import choice
 
-
 def intro_msg():
     sys.stdout.write("\n\tGame starting ")
     sys.stdout.flush()
@@ -23,8 +22,6 @@ def bye_msg(score):
     r=input()
     
     
-
-
 def main():
     input_dict={"UP       ":72,
                 "LEFT     ":75,
